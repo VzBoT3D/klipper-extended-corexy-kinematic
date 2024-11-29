@@ -22,6 +22,18 @@ cd klipper-extended-corexy-kinematic
 ./install.sh
 </pre>
 
+## Add to Moonraker Update manager
+<pre>
+# Extendeded corexy entry
+[update_manager vz-extended-corexy]
+type: git_repo
+path: ~/klipper-extended-corexy-kinematic
+origin: https://github.com/VzBoT3D/klipper-extended-corexy-kinematic.git
+primary_branch: master
+managed_services: klipper
+install_script: install.sh
+</pre>
+
 ## 4. Test data
 
 ![Input shaper test result on a 500x400x300mm machine](./doc/shaper-500x400.png)
