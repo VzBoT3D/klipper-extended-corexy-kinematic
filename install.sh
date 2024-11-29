@@ -2,7 +2,7 @@
 KLIPPER_PATH="${HOME}/klipper"
 
 if [ "$EUID" -eq 0 ]; then
-    echo "This script must not run as root"
+    echo "[VZ] This script must not run as root"
     exit -1
 fi
 
