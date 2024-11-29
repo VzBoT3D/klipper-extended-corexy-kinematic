@@ -1,9 +1,9 @@
 # klipper-extended-corexy-kinematic
+
+# Based on [SnakeOil Extended CoreXY Klipper Module](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
 Klipper module for extended-corexy kinematic support. 
 
-## Adjusted by the VzBoT team to support AWD (multiple motors per axis)
-
-Based on [SnakeOil Extended CoreXY Klipper Module](https://github.com/SnakeOilXY/klipper-extended-corexy-kinematic)
+## Adjusted by the VzBoT team for specific docs.
 
 ## 1. Introduction
 This kinematic is based on traditional CoreXY and hybrid-CoreXY (aka Markforged kinematic), aiming to improve the performance of large CoreXY-based 3D printers.
