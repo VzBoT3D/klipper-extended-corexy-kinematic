@@ -9,8 +9,8 @@ fi
 set -e
 
 SRCDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )"/ && pwd )"
-echo "Linking extended_corexy.py to Klipper kinematic directory"
+echo "[VZ] Linking extended_corexy.py to Klipper kinematic directory"
 ln -sf "${SRCDIR}/src/extended_corexy.py" "${KLIPPER_PATH}/klippy/kinematics/extended_corexy.py"
-echo "Restarting Klipper..."
+echo "[VZ] Restarting Klipper..."
 sudo systemctl restart klipper
 
